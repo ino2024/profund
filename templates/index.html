@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet">
+    <title>Pro-Fund</title>
+
+    <!-- Bootstrap core CSS -->
+     {% load static %}
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static "css/fontawesome.css" %}">
+    <link rel="stylesheet" href="{% static "css/templatemo-finance-business.css" %}">
+    <link rel="stylesheet" href="{% static "css/owl.css" %}">
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-clock-o"></i>{% trans "Nos Horaires 09:00-17:00" %}</a></li>
+              <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="{% url 'index' %}"><h2>Pro-Fund</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{% url 'index' %}">{% trans "Accueil" %}
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'about' %}">{% trans "A propos" %}</a>
+                </li>  
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'services' %}">{% trans "Procédure de financement" %}</a>
+                </li>            
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'formulaire' %}">{% trans "Formulaire de financement" %}</a>
+                </li>              
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'contact' %}">{% trans "Contact" %}</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      {% trans "Langues" %}
+                  </a>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="/es{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-es"></span> {% trans "Espagnol" %}</a></li>
+                      <li><a class="dropdown-item" href="/fr{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-fr"></span> {% trans "Français" %}</a></li>
+                      <li><a class="dropdown-item" href="/en{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-gb"></span> {% trans "Anglais" %}</a></li>
+                      <li><a class="dropdown-item" href="/de{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-de"></span> {% trans "Allemand" %}</a></li>
+                      <li><a class="dropdown-item" href="/pt{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-pt"></span> {% trans "Portugais" %}</a></li>
+                      <li><a class="dropdown-item" href="/lt{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-lt"></span> {% trans "Lituanien" %}</a></li>
+                      <li><a class="dropdown-item" href="/sk{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-sk"></span> {% trans "Slovaque" %}</a></li>
+                  </ul>
+                </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <!-- Banner Starts Here -->
+    <div class="main-banner header-text" id="top">
+        <div class="Modern-Slider">
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <img src="{% static 'images/slide_01.jpg' %}" alt="Pro-Fund" class="img-responsive">
+                <div class="text-content">
+                    <h4>Pro-Fund</h4>
+                    <p>{% trans "Avec nous, chaque ambition trouve son chemin vers le succès grâce à un accompagnement sur mesure." %}</p>
+                    <a href="{% url 'formulaire' %}" class="filled-button">{% trans "Faire une demande" %}</a>
+                </div>
+            </div>
+        </div>
+        
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <img src="{% static 'images/slide_01.jpg' %}" alt="Pro-Fund" class="img-responsive">
+                <div class="text-content">
+                    <h4>Pro-Fund</h4>
+                    <p>{% trans "Avec nous, chaque ambition trouve son chemin vers le succès grâce à un accompagnement sur mesure." %}</p>
+                    <a href="{% url 'formulaire' %}" class="filled-button">{% trans "Faire une demande" %}</a>
+                </div>
+            </div>
+        </div>
+        
+          <!-- // Item -->
+          <!-- Item -->
+          <div class="item item-1">
+            <div class="img-fill">
+                <img src="{% static 'images/slide_01.jpg' %}" alt="Pro-Fund" class="img-responsive">
+                <div class="text-content">
+                    <h4>Pro-Fund</h4>
+                    <p>{% trans "Avec nous, chaque ambition trouve son chemin vers le succès grâce à un accompagnement sur mesure." %}</p>
+                    <a href="{% url 'formulaire' %}" class="filled-button">{% trans "Faire une demande" %}</a>
+                </div>
+            </div>
+        </div>
+        
+          <!-- // Item -->
+        </div>
+    </div>
+    <!-- Banner Ends Here -->
+
+    <div class="request-form">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>{% trans "Un plan pour tous" %}</h3>
+            <span>{% trans "Chez Pro-Fund, nous croyons que chaque idée mérite une chance de voir le jour. Nous offrons des financements sans remboursement pour accompagner vos projets les plus ambitieux. Grâce à notre processus de traitement des dossiers rapide et efficace, nous garantissons un service fluide, accessible à tous, quelle que soit votre nationalité. Avec Pro-Fund, réaliser vos rêves n’a jamais été aussi simple." %}</span>
+          </div>
+          <div class="col-md-4">
+            <a href="{% url 'formulaire' %}" class="border-button">{% trans "Obtenir un financement" %}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2><em>{% trans "Nos valeurs" %}</em></h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="{% static "images/service_01.jpg" %}" alt="">
+              <div class="down-content">
+                <h4>{% trans "Équité" %} </h4>
+                <p>{% trans "Nous croyons fermement que chaque individu mérite une chance égale de réaliser ses rêves, quels que soient son origine, sa situation ou sa nationalité. Notre approche inclusive garantit un accès équitable à nos services de financement." %}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="{% static "images/service_02.jpg" %}" alt="">
+              <div class="down-content">
+                <h4>{% trans "Efficacité" %}</h4>
+                <p>{% trans "Le temps est précieux, et nous nous engageons à offrir des solutions rapides et fiables. Notre processus de traitement des dossiers est conçu pour être fluide et efficace, afin que vous puissiez vous concentrer sur ce qui compte : concrétiser vos projets." %}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-item">
+              <img src="{% static "images/service_03.jpg" %}" alt="">
+              <div class="down-content">
+                <h4>{% trans "Impact" %}</h4>
+                <p>{% trans "Nous aspirons à faire une différence réelle et durable en soutenant des projets qui changent des vies et contribuent au développement de communautés à travers le monde. Chez nous, chaque financement est un investissement dans un avenir meilleur." %}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="fun-facts" style="background-image: url('{% static 'images/fun-facts-bg.jpg' %}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left-content">
+                    <h2><em>{% trans "Nos statistiques impressionnantes" %}</em></h2>
+                    <p>{% trans "Découvrez l'impact concret de notre engagement avec des chiffres qui parlent d'eux-mêmes. Nos statistiques reflètent non seulement notre efficacité, mais aussi la confiance et la satisfaction de nos utilisateurs." %} 
+                    <br><br>{% trans "Chaque projet soutenu est une histoire de réussite qui contribue à renforcer notre vision d'un avenir prospère et accessible pour tous." %}</p>
+                </div>
+            </div>
+            <div class="col-md-6 align-self-center">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="count-area-content">
+                            <div class="count-digit">1281</div>
+                            <div class="count-title">{% trans "Nombre de projets financés" %}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="count-area-content">
+                            <div class="count-digit">94%</div>
+                            <div class="count-title">{% trans "Taux de Satisfaction" %}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="count-area-content">
+                            <div class="count-digit">108</div>
+                            <div class="count-title">{% trans "Partenaires" %}</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="count-area-content">
+                            <div class="count-digit">18</div>
+                            <div class="count-title">{% trans "Pays" %}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <div class="more-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-image">
+                    <img src="{% static "images/more-info.jpg" %}" alt="">
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <h2><em>{% trans "Aide Financière" %}</em></h2>
+                    <p>{% trans "Nous offrons une aide financière rapide et accessible pour soutenir vos projets. Que vous soyez entrepreneur ou particulier, nous mettons à votre disposition des solutions de financement sans remboursement, adaptées à vos besoins. Notre équipe s'engage à traiter chaque dossier avec efficacité et transparence, pour vous aider à réaliser vos ambitions, quelle que soit votre situation." %}</p>
+                    <a href="{% url 'services' %}" class="filled-button">{% trans "En savoir plus" %}</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2><em>{% trans "ILS NOUS ONT FAIT CONFIANCE" %}</em></h2>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-testimonials owl-carousel">
+              
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>George Walker</h4>
+                  <p>"{% trans "Grâce à Pro-Fund, j'ai pu lancer mon restaurant sans me soucier des finances. Leur financement rapide et sans remboursement a été la clé pour concrétiser mon projet. Une aide indispensable pour tous ceux qui veulent faire avancer leurs idées !" %}"</p>
+                </div>
+                <img src="{% static "images/testip3.webp" %}" alt="" style="width: 65px; height: 65px; border-radius: 50%; object-fit: cover;">
+
+              </div>
+              
+              <div class="testimonial-item">
+                <div class="inner-content">
+                  <h4>Lila Povanova</h4>
+                  <p>"{% trans "Pro-Fund m'a permis de lancer mon café sans aucune contrainte financière. Leur financement rapide et sans remboursement a été un véritable levier pour réaliser mon projet. Une solution idéale pour concrétiser ses idées !" %}"</p>
+                </div>
+                <img src="{% static "images/testi5.webp" %}" alt="" style="width: 65px; height: 65px; border-radius: 50%; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>{% trans "Liens rapides" %}</h4>
+            <ul class="menu-list">
+              <li><a href="{% url 'about' %}">{% trans "A propos" %}</a></li>
+              <li><a href="{% url 'services' %}">{% trans "Procédure de financement" %} </a></li>
+              <li><a href="{% url 'formulaire' %}">{% trans "Formulaire de financement" %}</a></li>
+              <li><a href="{% url 'contact' %}">{% trans "Contact" %}</a></li>
+      
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-item">
+            <h4></h4>
+            <ul class="menu-list">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-item">
+            <h4>{% trans "Infos" %}</h4>
+            <ul class="menu-list">
+              <li><a href="#">Pro-Fund</a></li>
+              <li><a href="#">12 rue de l'avenue Paris 750000</a></li>
+              <li><a href="#">{% trans "Telephone" %} : +33 7 35 77 55 2</a></li>
+              <li><a href="#">{% trans "Email " %}: <em>pro-fund@gmail.com</em></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2024 Pro-Fund. {% trans "Tous droits réservés." %} <br>
+            <a rel="nofollow noopener" href="{% url 'mention' %}" target="_blank">{% trans "Mentions légales" %}</a>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script src="{% static "js/bootstrap.bundle.min.js" %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Additional Scripts -->
+    <script src="{% static "js/custom.js" %}"></script>
+    <script src="{% static "js/owl.js" %}"></script>
+    <script src="{% static "js/slick.js" %}"></script>
+    <script src="{% static "js/accordions.js" %}"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>

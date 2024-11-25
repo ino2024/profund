@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" rel="stylesheet">
+
+    <title>Pro-Fund</title>
+    {% load static %}
+    <!-- Bootstrap core CSS -->
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static "css/fontawesome.css" %}">
+    <link rel="stylesheet" href="{% static "css/templatemo-finance-business.css" %}">
+    <link rel="stylesheet" href="{% static "css/owl.css" %}">
+
+  <style>
+    select.form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  </style>  
+  
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+      <div class="jumper">
+          <div></div>
+          <div></div>
+          <div></div>
+      </div>
+  </div>  
+  <!-- ***** Preloader End ***** -->
+
+  <!-- Header -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-12">
+          <ul class="left-info">
+            <li><a href="#"><i class="fa fa-clock-o"></i>{% trans "Nos Horaires" %} 09:00-17:00</a></li>
+            <li><a href="#"><i class="fa fa-phone"></i>090-080-0760</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="right-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="{% url 'index' %}"><h2>Pro-Fund</h2></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'index' %}">{% trans "Accueil" %}
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'about' %}">{% trans "A propos" %}</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'services' %}">{% trans "Procédure de financement" %}</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'formulaire' %}">{% trans "Formulaire de financement" %}</a>
+            </li>              
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'contact' %}">{% trans "Contact" %}</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {% trans "Langues" %}
+              </a>
+              <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/es{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-es"></span> {% trans "Espagnol" %}</a></li>
+                  <li><a class="dropdown-item" href="/fr{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-fr"></span> {% trans "Français" %}</a></li>
+                  <li><a class="dropdown-item" href="/en{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-gb"></span> {% trans "Anglais" %}</a></li>
+                  <li><a class="dropdown-item" href="/de{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-de"></span> {% trans "Allemand" %}</a></li>
+                  <li><a class="dropdown-item" href="/pt{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-pt"></span> {% trans "Portugais" %}</a></li>
+                  <li><a class="dropdown-item" href="/lt{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-lt"></span> {% trans "Lituanien" %}</a></li>
+                  <li><a class="dropdown-item" href="/sk{{ request.path|slice:"3:" }}"><span class="flag-icon flag-icon-sk"></span> {% trans "Slovaque" %}</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>{% trans "Nos règles" %}</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="callback-form callback-services">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2><em>{% trans "Mentions Légales" %}</em></h2>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="contact-form">
+                <div style="margin: 50px auto; width: 80%; text-align: justify;">
+
+                    <p><strong>{% trans "Qui sommes nous ?" %} :</strong></p>
+                    <p>{% trans "Pro-Fund est une plateforme innovante qui offre des solutions de financement sans remboursement, permettant à chacun de réaliser ses projets personnels et professionnels. Nous nous engageons à soutenir nos utilisateurs en leur fournissant un financement rapide et accessible, sans conditions de remboursement imposées." %}</p>
+            
+                    <p><strong>{% trans "Propriété intellectuelle " %}:</strong></p>
+                    <p>{% trans "Le site et l'ensemble de son contenu, y compris les textes, images, logos, vidéos, graphiques, icônes, ainsi que le code source, sont protégés par les lois françaises relatives à la propriété intellectuelle. Toute reproduction, distribution, modification, ou exploitation du contenu sans l'accord préalable de l'éditeur est interdite. Toute utilisation non autorisée peut entraîner des poursuites judiciaires." %}</p>
+            
+                    <p><strong>{% trans "Conditions d'utilisation du site" %} :</strong></p>
+                    <p>{% trans "Le site internet" %} <a href="#">Pro-Fund</a> {% trans "est mis à disposition pour un usage personnel, informatif et commercial. L'utilisateur s'engage à ne pas utiliser le site de manière à causer des dommages ou perturber son bon fonctionnement. L'éditeur se réserve le droit de suspendre l'accès au site sans préavis en cas de comportement abusif." %}</p>
+            
+                    <p><strong>{% trans "Responsabilité" %} :</strong></p>
+                    <p>{% trans "L'éditeur du site met tout en œuvre pour offrir des informations fiables et à jour. Toutefois, l'éditeur ne peut garantir l'exactitude, la précision, l'exhaustivité des informations présentes sur le site, ni leur mise à jour. En conséquence, l'utilisateur reconnaît utiliser ces informations sous sa propre responsabilité. L'éditeur ne pourra être tenu responsable en cas de dommages directs ou indirects résultant de l'utilisation des informations ou des services proposés sur le site." %}</p>
+            
+                    <p><strong>{% trans "Données personnelles" %} :</strong></p>
+                    <p>{% trans "Les données personnelles collectées via le site sont traitées conformément à la loi Informatique et Libertés du 6 janvier 1978 et au Règlement Général sur la Protection des Données (RGPD) de l'Union Européenne. Les données collectées sont utilisées uniquement pour les finalités suivantes : gestion des demandes, amélioration de l'expérience utilisateur, et envoi de communications commerciales, le cas échéant. Ces données ne seront en aucun cas transmises à des tiers sans votre consentement préalable, sauf exigence légale." %}</p>
+                    <p>{% trans "L'utilisateur dispose d'un droit d'accès, de rectification, de suppression, et d'opposition sur les données personnelles le concernant, en contactant l'éditeur à l'adresse e-mail mentionnée ci-dessus." %}</p>
+            
+                    <p><strong>{% trans "Cookies" %} :</strong></p>
+                    <p>{% trans "Le site utilise des cookies afin de permettre une meilleure expérience de navigation et d'analyser les performances du site. Les cookies sont de petits fichiers texte stockés sur votre appareil lors de votre visite sur notre site. Vous pouvez gérer ou désactiver les cookies via les paramètres de votre navigateur. Cependant, si vous désactivez les cookies, certaines fonctionnalités du site peuvent ne pas être disponibles." %}</p>
+            
+                    <p><strong>{% trans "Liens externes" %} :</strong></p>
+                    <p>{% trans "Le site peut contenir des liens vers des sites externes. L'éditeur ne saurait être responsable du contenu de ces sites tiers et ne les cautionne en aucun cas. L'utilisateur accède à ces sites sous sa propre responsabilité." %}</p>
+            
+                    <p><strong>{% trans "Modification des mentions légales" %} :</strong></p>
+                    <p>{% trans "Les présentes mentions légales peuvent être modifiées à tout moment, sans préavis, afin de respecter l'évolution de la législation ou des services proposés. Il appartient donc à l'utilisateur de consulter régulièrement cette page." %}</p>
+            
+                    <p><strong>{% trans "Litiges" %} :</strong></p>
+                    <p>{% trans "Les présentes mentions légales sont régies par la loi française. En cas de litige, les tribunaux compétents du ressort de Paris seront seuls compétents, sauf disposition légale impérative contraire." %}</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="partners">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="owl-partners owl-carousel">
+              <div class="partner-item">
+                <img src="#" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>{% trans "Liens rapides" %}</h4>
+            <ul class="menu-list">
+              <li><a href="{% url 'about' %}">{% trans "A propos" %}</a></li>
+              <li><a href="{% url 'services' %}">{% trans "Procédure de financement" %} </a></li>
+              <li><a href="{% url 'formulaire' %}">{% trans "Formulaire de financement" %}</a></li>
+              <li><a href="{% url 'contact' %}">{% trans "Contact" %}</a></li>
+      
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-item">
+            <h4></h4>
+            <ul class="menu-list">
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 footer-item">
+            <h4>{% trans "Infos" %}</h4>
+            <ul class="menu-list">
+              <li><a href="#">Pro-Fund</a></li>
+              <li><a href="#">12 rue de l'avenue Paris 750000</a></li>
+              <li><a href="#">{% trans "Telephone" %} : +33 7 35 77 55 2</a></li>
+              <li><a href="#">{% trans "Email" %} : <em>pro-fund@gmail.com</em></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2024 Pro-Fund. {% trans "Tous droits réservés" %}. <br>
+                <a rel="nofollow noopener" href="{% url 'mention' %}" target="_blank">{% trans "Mentions légales" %}</a>
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{% static "js/jquery.min.js" %}"></script>
+    <script src="{% static "js/bootstrap.bundle.min.js" %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Additional Scripts -->
+    <script src="{% static "js/custom.js" %}"></script>
+    <script src="{% static "js/owl.js" %}"></script>
+    <script src="{% static "js/slick.js" %}"></script>
+    <script src="{% static "js/accordions.js" %}"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>

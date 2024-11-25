@@ -1,0 +1,2390 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-25 14:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: financements/views.py:37
+msgid "Le champ revenu doit contenir uniquement des chiffres."
+msgstr "The income field must contain only numbers."
+
+#: financements/views.py:41
+msgid "Le champ montant de financement doit contenir uniquement des chiffres."
+msgstr "The financing amount field must contain only numbers."
+
+#: mon_site/settings.py:117
+msgid "English"
+msgstr "English"
+
+#: mon_site/settings.py:118 templates/about.html:100 templates/contact.html:100
+#: templates/index.html:97 templates/mention.html:111
+#: templates/mentionlegale.html:111 templates/merci.html:111
+#: templates/one-page.html:110 templates/services.html:101
+msgid "Français"
+msgstr "French"
+
+#: mon_site/settings.py:119
+msgid "Español"
+msgstr "Spanish"
+
+#: mon_site/settings.py:120
+msgid "Português"
+msgstr "Portuguese"
+
+#: mon_site/settings.py:121 templates/about.html:102 templates/contact.html:102
+#: templates/index.html:99 templates/mention.html:113
+#: templates/mentionlegale.html:113 templates/merci.html:113
+#: templates/one-page.html:112 templates/services.html:103
+msgid "Allemand"
+msgstr "German"
+
+#: mon_site/settings.py:122
+msgid "Lietuvių"
+msgstr "Lithuanian"
+
+#: mon_site/settings.py:123
+msgid "Slovenčina"
+msgstr "Slovak"
+
+#: templates/about.html:53 templates/index.html:51
+msgid "Nos Horaires 09:00-17:00"
+msgstr "Our Hours 09:00-17:00"
+
+#: templates/about.html:78 templates/contact.html:78 templates/index.html:75
+#: templates/mention.html:89 templates/mentionlegale.html:89
+#: templates/merci.html:89 templates/one-page.html:88
+#: templates/services.html:79
+msgid "Accueil"
+msgstr "Home"
+
+#: templates/about.html:83 templates/about.html:270 templates/contact.html:83
+#: templates/contact.html:221 templates/index.html:80 templates/index.html:320
+#: templates/mention.html:94 templates/mention.html:182
+#: templates/mentionlegale.html:94 templates/mentionlegale.html:206
+#: templates/merci.html:94 templates/merci.html:177 templates/one-page.html:93
+#: templates/one-page.html:311 templates/services.html:84
+#: templates/services.html:177
+msgid "A propos"
+msgstr "About"
+
+#: templates/about.html:86 templates/about.html:271 templates/contact.html:86
+#: templates/contact.html:222 templates/index.html:83 templates/index.html:321
+#: templates/mention.html:97 templates/mention.html:183
+#: templates/mentionlegale.html:97 templates/mentionlegale.html:207
+#: templates/merci.html:97 templates/merci.html:178 templates/one-page.html:96
+#: templates/one-page.html:312 templates/services.html:87
+#: templates/services.html:178
+msgid "Procédure de financement"
+msgstr "Financing Process"
+
+#: templates/about.html:89 templates/about.html:272 templates/contact.html:89
+#: templates/contact.html:223 templates/index.html:86 templates/index.html:322
+#: templates/mention.html:100 templates/mention.html:184
+#: templates/mentionlegale.html:100 templates/mentionlegale.html:208
+#: templates/merci.html:100 templates/merci.html:179 templates/one-page.html:99
+#: templates/one-page.html:313 templates/services.html:90
+#: templates/services.html:179
+msgid "Formulaire de financement"
+msgstr "Financing Form"
+
+#: templates/about.html:92 templates/about.html:273 templates/contact.html:92
+#: templates/contact.html:224 templates/index.html:89 templates/index.html:323
+#: templates/mention.html:103 templates/mention.html:185
+#: templates/mentionlegale.html:103 templates/mentionlegale.html:209
+#: templates/merci.html:103 templates/merci.html:180
+#: templates/one-page.html:102 templates/one-page.html:314
+#: templates/services.html:93 templates/services.html:180
+msgid "Contact"
+msgstr "Contact"
+
+#: templates/about.html:96 templates/contact.html:96 templates/index.html:93
+#: templates/mention.html:107 templates/mentionlegale.html:107
+#: templates/merci.html:107 templates/one-page.html:106
+#: templates/services.html:97
+msgid "Langues"
+msgstr "Languages"
+
+#: templates/about.html:99 templates/contact.html:99 templates/index.html:96
+#: templates/mention.html:110 templates/mentionlegale.html:110
+#: templates/merci.html:110 templates/one-page.html:109
+#: templates/services.html:100
+msgid "Espagnol"
+msgstr "Spanish"
+
+#: templates/about.html:101 templates/contact.html:101 templates/index.html:98
+#: templates/mention.html:112 templates/mentionlegale.html:112
+#: templates/merci.html:112 templates/one-page.html:111
+#: templates/services.html:102
+msgid "Anglais"
+msgstr "English"
+
+#: templates/about.html:103 templates/contact.html:103 templates/index.html:100
+#: templates/mention.html:114 templates/mentionlegale.html:114
+#: templates/merci.html:114 templates/one-page.html:113
+#: templates/services.html:104
+msgid "Portugais"
+msgstr "Portuguese"
+
+#: templates/about.html:104 templates/contact.html:104 templates/index.html:101
+#: templates/mention.html:115 templates/mentionlegale.html:115
+#: templates/merci.html:115 templates/one-page.html:114
+#: templates/services.html:105
+msgid "Lituanien"
+msgstr "Lithuanian"
+
+#: templates/about.html:105 templates/contact.html:105 templates/index.html:102
+#: templates/mention.html:116 templates/mentionlegale.html:116
+#: templates/merci.html:116 templates/one-page.html:115
+#: templates/services.html:106
+msgid "Slovaque"
+msgstr "Slovak"
+
+#: templates/about.html:118
+msgid "Qui sommes-nous ?"
+msgstr "Who are we?"
+
+#: templates/about.html:120 templates/index.html:123 templates/index.html:136
+#: templates/index.html:149
+msgid ""
+"Avec nous, chaque ambition trouve son chemin vers le succès grâce à un "
+"accompagnement sur mesure."
+msgstr ""
+"With us, every ambition finds its path to success with tailored support."
+
+#: templates/about.html:134
+msgid "Notre parcour"
+msgstr "Our journey"
+
+#: templates/about.html:135
+msgid ""
+"FAvec plus de 8 ans d’expérience dans le domaine du financement, notre "
+"organisation s’est imposée comme un acteur de confiance. Nous avons "
+"accompagné des milliers de projets à travers le monde, en offrant des "
+"solutions adaptées et un soutien personnalisé à chacun de nos bénéficiaires. "
+"<br><br> Notre expertise et notre engagement nous permettent de répondre "
+"efficacement aux besoins financiers de tous, peu importe leur situation ou "
+"leur nationalité."
+msgstr ""
+"With over 8 years of experience in financing, our organization has become a "
+"trusted player. We have supported thousands of projects worldwide, offering "
+"tailored solutions and personalized support to each of our beneficiaries. "
+"<br><br> Our expertise and commitment enable us to effectively address the "
+"financial needs of everyone, regardless of their situation or nationality."
+
+#: templates/about.html:155
+msgid "03 raisons de nous faire"
+msgstr "3 reasons to trust us"
+
+#: templates/about.html:155
+msgid "confiance"
+msgstr "trust"
+
+#: templates/about.html:162
+msgid "Expertise éprouvée"
+msgstr "Proven expertise"
+
+#: templates/about.html:163
+msgid ""
+"Avec plus de 8 ans d'expérience, nous offrons des solutions de financement "
+"adaptées à vos besoins."
+msgstr ""
+"With over 8 years of experience, we offer financing solutions tailored to "
+"your needs."
+
+#: templates/about.html:171
+msgid "Processus rapide et efficace"
+msgstr "Fast and efficient process"
+
+#: templates/about.html:172
+msgid ""
+"Nos procédures simplifiées garantissent un traitement rapide et transparent "
+"de vos demandes."
+msgstr ""
+"Our simplified procedures guarantee fast and transparent handling of your "
+"requests."
+
+#: templates/about.html:180
+msgid "Pas de frais cachés"
+msgstr "No hidden fees"
+
+#: templates/about.html:181
+msgid ""
+"Nous sommes transparents dans nos engagements, sans coûts supplémentaires "
+"inattendus."
+msgstr ""
+"We are transparent in our commitments, with no unexpected additional costs."
+
+#: templates/about.html:194 templates/index.html:218
+msgid "Nos statistiques impressionnantes"
+msgstr "Our impressive statistics"
+
+#: templates/about.html:195 templates/index.html:219
+msgid ""
+"Découvrez l'impact concret de notre engagement avec des chiffres qui parlent "
+"d'eux-mêmes. Nos statistiques reflètent non seulement notre efficacité, mais "
+"aussi la confiance et la satisfaction de nos utilisateurs."
+msgstr ""
+"Discover the concrete impact of our commitment with numbers that speak for "
+"themselves. Our statistics not only reflect our efficiency but also the "
+"trust and satisfaction of our users."
+
+#: templates/about.html:196 templates/index.html:220
+msgid ""
+"Chaque projet soutenu est une histoire de réussite qui contribue à renforcer "
+"notre vision d'un avenir prospère et accessible pour tous."
+msgstr ""
+"Each supported project is a success story that strengthens our vision of a "
+"prosperous and accessible future for all."
+
+#: templates/about.html:204 templates/index.html:228
+msgid "Nombre de projets financés"
+msgstr "Number of financed projects"
+
+#: templates/about.html:210 templates/index.html:234
+msgid "Taux de Satisfaction"
+msgstr "Satisfaction rate"
+
+#: templates/about.html:216 templates/index.html:240
+msgid "Partenaires"
+msgstr "Partners"
+
+#: templates/about.html:222 templates/index.html:246
+msgid "Pays"
+msgstr "Countries"
+
+#: templates/about.html:236
+msgid "Ils nous ont fait confiance"
+msgstr "They trusted us"
+
+#: templates/about.html:245 templates/index.html:294
+msgid ""
+"Grâce à Pro-Fund, j'ai pu lancer mon restaurant sans me soucier des "
+"finances. Leur financement rapide et sans remboursement a été la clé pour "
+"concrétiser mon projet. Une aide indispensable pour tous ceux qui veulent "
+"faire avancer leurs idées !"
+msgstr ""
+"Thanks to Pro-Fund, I was able to launch my restaurant without worrying "
+"about finances. Their fast, no-repayment financing was the key to realizing "
+"my project. An essential aid for anyone looking to advance their ideas!"
+
+#: templates/about.html:254 templates/index.html:303
+msgid ""
+"Pro-Fund m'a permis de lancer mon café sans aucune contrainte financière. "
+"Leur financement rapide et sans remboursement a été un véritable levier pour "
+"réaliser mon projet. Une solution idéale pour concrétiser ses idées !"
+msgstr ""
+"Pro-Fund helped me launch my café without any financial constraints. Their "
+"fast, no-repayment financing was a real lever for realizing my project. An "
+"ideal solution for bringing ideas to life!"
+
+#: templates/about.html:268 templates/contact.html:219 templates/index.html:318
+#: templates/mention.html:180 templates/mentionlegale.html:204
+#: templates/merci.html:175 templates/one-page.html:309
+#: templates/services.html:175
+msgid "Liens rapides"
+msgstr "Quick links"
+
+#: templates/about.html:295 templates/contact.html:245 templates/index.html:344
+#: templates/mention.html:206 templates/mentionlegale.html:230
+#: templates/merci.html:201 templates/one-page.html:335
+#: templates/services.html:201
+msgid "Telephone"
+msgstr "Phone"
+
+#: templates/about.html:296 templates/contact.html:137
+#: templates/contact.html:246 templates/mentionlegale.html:231
+#: templates/merci.html:202 templates/services.html:202
+msgid "Email"
+msgstr "Email"
+
+#: templates/about.html:307 templates/contact.html:257
+#: templates/mention.html:218 templates/mentionlegale.html:242
+#: templates/merci.html:213 templates/one-page.html:347
+#: templates/services.html:213
+msgid "Tous droits réservés"
+msgstr "All rights reserved"
+
+#: templates/about.html:308 templates/contact.html:258 templates/index.html:357
+#: templates/mentionlegale.html:243 templates/merci.html:214
+#: templates/one-page.html:348 templates/services.html:214
+msgid "Mentions légales"
+msgstr "Legal notice"
+
+#: templates/contact.html:53 templates/mention.html:64
+#: templates/mentionlegale.html:64 templates/merci.html:64
+#: templates/one-page.html:63 templates/services.html:54
+msgid "Nos Horaires"
+msgstr "Our Hours"
+
+#: templates/contact.html:118
+msgid "Notre contacte"
+msgstr "Our contact"
+
+#: templates/contact.html:130
+msgid "Télephone"
+msgstr "Phone"
+
+#: templates/contact.html:144
+msgid "Location"
+msgstr "Location"
+
+#: templates/contact.html:157
+msgid "Envoyer votre"
+msgstr "Send your"
+
+#: templates/contact.html:157
+msgid "message"
+msgstr "message"
+
+#: templates/contact.html:167
+msgid "Nom et Prénoms"
+msgstr "Full Name"
+
+#: templates/contact.html:172 templates/one-page.html:227
+msgid "E-Mail"
+msgstr "Email"
+
+#: templates/contact.html:177
+msgid "Sujet"
+msgstr "Subject"
+
+#: templates/contact.html:182
+msgid "Message"
+msgstr "Message"
+
+#: templates/contact.html:187
+msgid "Envoyer votre message"
+msgstr "Send your message"
+
+#: templates/contact.html:241 templates/index.html:340
+#: templates/mention.html:202 templates/mentionlegale.html:226
+#: templates/merci.html:197 templates/one-page.html:331
+msgid "Infos"
+msgstr "Info"
+
+#: templates/email.html:7
+msgid "Email de Confirmation - Demande de Financement"
+msgstr "Confirmation Email - Funding Request"
+
+#: templates/email.html:94
+msgid "Merci pour votre demande de financement"
+msgstr "Thank you for your funding request"
+
+#: templates/email.html:95
+msgid ""
+"Nous avons bien reçu votre demande et nous tenons à vous remercier pour la "
+"confiance que vous nous accordez."
+msgstr ""
+"We have received your request and would like to thank you for the trust you "
+"have placed in us."
+
+#: templates/email.html:96
+msgid ""
+"Votre demande est actuellement en cours de traitement, et l’un de nos "
+"conseillers prendra contact avec vous dans les 48 heures afin de discuter "
+"des prochaines étapes et des solutions les plus adaptées à vos besoins."
+msgstr ""
+"Your request is currently being processed, and one of our advisors will "
+"contact you within 48 hours to discuss the next steps and the solutions best "
+"suited to your needs."
+
+#: templates/email.html:97
+msgid ""
+"Nous sommes ravis de pouvoir vous accompagner dans votre projet, et notre "
+"équipe est à votre disposition pour répondre à toutes vos questions pendant "
+"cette période d'attente."
+msgstr ""
+"We are delighted to assist you with your project, and our team is available "
+"to answer any questions you may have during this waiting period."
+
+#: templates/email.html:98
+msgid ""
+"En attendant, n’hésitez pas à explorer notre site web pour découvrir "
+"l'ensemble de nos services. Vous y trouverez des informations utiles qui "
+"pourraient vous intéresser :"
+msgstr ""
+"In the meantime, feel free to explore our website to discover all of our "
+"services. You will find useful information that may interest you."
+
+#: templates/email.html:99
+msgid "Visitez notre site web"
+msgstr "Visit our website"
+
+#: templates/email.html:100
+msgid ""
+"Nous vous remercions encore pour votre demande et restons à votre "
+"disposition pour toute autre information."
+msgstr ""
+"We thank you again for your request and remain at your disposal for any "
+"further information."
+
+#: templates/email.html:101
+msgid "Cordialement,"
+msgstr "Sincerely,"
+
+#: templates/email.html:102
+msgid "L'équipe de"
+msgstr "The team at"
+
+#: templates/email.html:106
+msgid "Restez connecté avec nous :"
+msgstr "Stay connected with us:"
+
+#: templates/email.html:109 templates/index.html:356
+msgid "Tous droits réservés."
+msgstr "All rights reserved."
+
+#: templates/index.html:124 templates/index.html:137 templates/index.html:150
+msgid "Faire une demande"
+msgstr "Make a request"
+
+#: templates/index.html:164
+msgid "Un plan pour tous"
+msgstr "A plan for everyone"
+
+#: templates/index.html:165
+msgid ""
+"Chez Pro-Fund, nous croyons que chaque idée mérite une chance de voir le "
+"jour. Nous offrons des financements sans remboursement pour accompagner vos "
+"projets les plus ambitieux. Grâce à notre processus de traitement des "
+"dossiers rapide et efficace, nous garantissons un service fluide, accessible "
+"à tous, quelle que soit votre nationalité. Avec Pro-Fund, réaliser vos rêves "
+"n’a jamais été aussi simple."
+msgstr ""
+"At Pro-Fund, we believe that every idea deserves a chance to come to life. "
+"We offer non-repayable funding to support your most ambitious projects. With "
+"our fast and efficient processing system, we guarantee a smooth service that "
+"is accessible to all, regardless of nationality. With Pro-Fund, making your "
+"dreams come true has never been easier."
+
+#: templates/index.html:168
+msgid "Obtenir un financement"
+msgstr "Get funding"
+
+#: templates/index.html:179
+msgid "Nos valeurs"
+msgstr "Our values"
+
+#: templates/index.html:186
+msgid "Équité"
+msgstr "Equity"
+
+#: templates/index.html:187
+msgid ""
+"Nous croyons fermement que chaque individu mérite une chance égale de "
+"réaliser ses rêves, quels que soient son origine, sa situation ou sa "
+"nationalité. Notre approche inclusive garantit un accès équitable à nos "
+"services de financement."
+msgstr ""
+"We firmly believe that every individual deserves an equal chance to achieve "
+"their dreams, regardless of their background, situation, or nationality. Our "
+"inclusive approach guarantees equitable access to our financing services."
+
+#: templates/index.html:195
+msgid "Efficacité"
+msgstr "Efficiency"
+
+#: templates/index.html:196
+msgid ""
+"Le temps est précieux, et nous nous engageons à offrir des solutions rapides "
+"et fiables. Notre processus de traitement des dossiers est conçu pour être "
+"fluide et efficace, afin que vous puissiez vous concentrer sur ce qui "
+"compte : concrétiser vos projets."
+msgstr ""
+"Time is precious, and we are committed to providing quick and reliable "
+"solutions. Our processing system is designed to be smooth and efficient, "
+"allowing you to focus on what matters: bringing your projects to life."
+
+#: templates/index.html:204
+msgid "Impact"
+msgstr "Impact"
+
+#: templates/index.html:205
+msgid ""
+"Nous aspirons à faire une différence réelle et durable en soutenant des "
+"projets qui changent des vies et contribuent au développement de communautés "
+"à travers le monde. Chez nous, chaque financement est un investissement dans "
+"un avenir meilleur."
+msgstr ""
+"We strive to make a real and lasting difference by supporting projects that "
+"change lives and contribute to the development of communities around the "
+"world. For us, each funding is an investment in a better future."
+
+#: templates/index.html:268
+msgid "Aide Financière"
+msgstr "Financial assistance"
+
+#: templates/index.html:269
+msgid ""
+"Nous offrons une aide financière rapide et accessible pour soutenir vos "
+"projets. Que vous soyez entrepreneur ou particulier, nous mettons à votre "
+"disposition des solutions de financement sans remboursement, adaptées à vos "
+"besoins. Notre équipe s'engage à traiter chaque dossier avec efficacité et "
+"transparence, pour vous aider à réaliser vos ambitions, quelle que soit "
+"votre situation."
+msgstr ""
+"We offer quick and accessible financial assistance to support your projects. "
+"Whether you are an entrepreneur or an individual, we provide non-repayable "
+"funding solutions tailored to your needs. Our team is committed to "
+"processing each request efficiently and transparently to help you achieve "
+"your ambitions, no matter your situation."
+
+#: templates/index.html:270
+msgid "En savoir plus"
+msgstr "Learn more"
+
+#: templates/index.html:285
+msgid "ILS NOUS ONT FAIT CONFIANCE"
+msgstr "They trusted us"
+
+#: templates/index.html:345 templates/mention.html:207
+#: templates/one-page.html:336
+msgid "Email "
+msgstr "Email"
+
+#: templates/mention.html:130
+msgid "Félicitation"
+msgstr "Congratulations"
+
+#: templates/mention.html:143
+msgid "Merci pour votre demande !"
+msgstr "Thank you for your request!"
+
+#: templates/mention.html:149
+msgid ""
+"Merci d'avoir soumis votre demande de financement. Votre demande a été "
+"envoyée avec succès."
+msgstr ""
+"Thank you for submitting your funding request. Your request has been "
+"successfully sent."
+
+#: templates/mention.html:150
+msgid ""
+"Un email de confirmation vous a été envoyé. Un membre de notre équipe vous "
+"contactera sous peu pour les prochaines étapes."
+msgstr ""
+"A confirmation email has been sent to you. A team member will contact you "
+"shortly for the next steps."
+
+#: templates/mention.html:151
+msgid "Nous restons à votre disposition pour toute question."
+msgstr "We remain at your disposal for any questions."
+
+#: templates/mention.html:152
+msgid "À bientôt !"
+msgstr "See you soon!"
+
+#: templates/mentionlegale.html:130
+msgid "Nos règles"
+msgstr "Our rules"
+
+#: templates/mentionlegale.html:143
+msgid "Mentions Légales"
+msgstr "Legal Notice"
+
+#: templates/mentionlegale.html:150
+msgid "Qui sommes nous ?"
+msgstr "Who are we?"
+
+#: templates/mentionlegale.html:151
+msgid ""
+"Pro-Fund est une plateforme innovante qui offre des solutions de financement "
+"sans remboursement, permettant à chacun de réaliser ses projets personnels "
+"et professionnels. Nous nous engageons à soutenir nos utilisateurs en leur "
+"fournissant un financement rapide et accessible, sans conditions de "
+"remboursement imposées."
+msgstr ""
+
+#: templates/mentionlegale.html:153
+msgid "Propriété intellectuelle "
+msgstr "Intellectual Property"
+
+#: templates/mentionlegale.html:154
+msgid ""
+"Le site et l'ensemble de son contenu, y compris les textes, images, logos, "
+"vidéos, graphiques, icônes, ainsi que le code source, sont protégés par les "
+"lois françaises relatives à la propriété intellectuelle. Toute reproduction, "
+"distribution, modification, ou exploitation du contenu sans l'accord "
+"préalable de l'éditeur est interdite. Toute utilisation non autorisée peut "
+"entraîner des poursuites judiciaires."
+msgstr ""
+
+#: templates/mentionlegale.html:156
+msgid "Conditions d'utilisation du site"
+msgstr "Terms of Use"
+
+#: templates/mentionlegale.html:157
+msgid "Le site internet"
+msgstr "The website"
+
+#: templates/mentionlegale.html:157
+msgid ""
+"est mis à disposition pour un usage personnel, informatif et commercial. "
+"L'utilisateur s'engage à ne pas utiliser le site de manière à causer des "
+"dommages ou perturber son bon fonctionnement. L'éditeur se réserve le droit "
+"de suspendre l'accès au site sans préavis en cas de comportement abusif."
+msgstr ""
+
+#: templates/mentionlegale.html:159
+msgid "Responsabilité"
+msgstr "Responsibility"
+
+#: templates/mentionlegale.html:160
+msgid ""
+"L'éditeur du site met tout en œuvre pour offrir des informations fiables et "
+"à jour. Toutefois, l'éditeur ne peut garantir l'exactitude, la précision, "
+"l'exhaustivité des informations présentes sur le site, ni leur mise à jour. "
+"En conséquence, l'utilisateur reconnaît utiliser ces informations sous sa "
+"propre responsabilité. L'éditeur ne pourra être tenu responsable en cas de "
+"dommages directs ou indirects résultant de l'utilisation des informations ou "
+"des services proposés sur le site."
+msgstr ""
+
+#: templates/mentionlegale.html:162
+msgid "Données personnelles"
+msgstr "Personal Data"
+
+#: templates/mentionlegale.html:163
+msgid ""
+"Les données personnelles collectées via le site sont traitées conformément à "
+"la loi Informatique et Libertés du 6 janvier 1978 et au Règlement Général "
+"sur la Protection des Données (RGPD) de l'Union Européenne. Les données "
+"collectées sont utilisées uniquement pour les finalités suivantes : gestion "
+"des demandes, amélioration de l'expérience utilisateur, et envoi de "
+"communications commerciales, le cas échéant. Ces données ne seront en aucun "
+"cas transmises à des tiers sans votre consentement préalable, sauf exigence "
+"légale."
+msgstr ""
+
+#: templates/mentionlegale.html:164
+msgid ""
+"L'utilisateur dispose d'un droit d'accès, de rectification, de suppression, "
+"et d'opposition sur les données personnelles le concernant, en contactant "
+"l'éditeur à l'adresse e-mail mentionnée ci-dessus."
+msgstr ""
+
+#: templates/mentionlegale.html:166
+msgid "Cookies"
+msgstr "Cookies"
+
+#: templates/mentionlegale.html:167
+msgid ""
+"Le site utilise des cookies afin de permettre une meilleure expérience de "
+"navigation et d'analyser les performances du site. Les cookies sont de "
+"petits fichiers texte stockés sur votre appareil lors de votre visite sur "
+"notre site. Vous pouvez gérer ou désactiver les cookies via les paramètres "
+"de votre navigateur. Cependant, si vous désactivez les cookies, certaines "
+"fonctionnalités du site peuvent ne pas être disponibles."
+msgstr ""
+
+#: templates/mentionlegale.html:169
+msgid "Liens externes"
+msgstr "External Links"
+
+#: templates/mentionlegale.html:170
+msgid ""
+"Le site peut contenir des liens vers des sites externes. L'éditeur ne "
+"saurait être responsable du contenu de ces sites tiers et ne les cautionne "
+"en aucun cas. L'utilisateur accède à ces sites sous sa propre responsabilité."
+msgstr ""
+
+#: templates/mentionlegale.html:172
+msgid "Modification des mentions légales"
+msgstr "Modification of Legal Notices"
+
+#: templates/mentionlegale.html:173
+msgid ""
+"Les présentes mentions légales peuvent être modifiées à tout moment, sans "
+"préavis, afin de respecter l'évolution de la législation ou des services "
+"proposés. Il appartient donc à l'utilisateur de consulter régulièrement "
+"cette page."
+msgstr ""
+
+#: templates/mentionlegale.html:175
+msgid "Litiges"
+msgstr "Disputes"
+
+#: templates/mentionlegale.html:176
+msgid ""
+"Les présentes mentions légales sont régies par la loi française. En cas de "
+"litige, les tribunaux compétents du ressort de Paris seront seuls "
+"compétents, sauf disposition légale impérative contraire."
+msgstr ""
+
+#: templates/merci.html:130
+msgid "Merci de nous avoir contacter"
+msgstr "Thank you for contacting us"
+
+#: templates/merci.html:147
+msgid ""
+"Nous vous remercions d'avoir pris le temps de nous contacter ! Votre message "
+"a bien été reçu et notre équipe l'examine actuellement. Nous nous engageons "
+"à vous répondre dans les plus brefs délais et à vous fournir toute "
+"l'assistance nécessaire."
+msgstr ""
+
+#: templates/one-page.html:129
+msgid "Obtenir un financement maintenant"
+msgstr "Get Financing Now"
+
+#: templates/one-page.html:142
+msgid "Formulaire de demande de financement"
+msgstr "Financing Request Form"
+
+#: templates/one-page.html:153
+msgid "Civilité"
+msgstr "Salutation"
+
+#: templates/one-page.html:154
+msgid "Homme"
+msgstr "Man"
+
+#: templates/one-page.html:155
+msgid "Femme"
+msgstr "Woman"
+
+#: templates/one-page.html:156
+msgid "Autre"
+msgstr "Other"
+
+#: templates/one-page.html:163
+msgid "Nom et prénoms"
+msgstr "Full Name"
+
+#: templates/one-page.html:168
+msgid "Téléphone"
+msgstr "Phone"
+
+#: templates/one-page.html:174
+msgid "Choisissez votre pays"
+msgstr "Choose Your Country"
+
+#: templates/one-page.html:175
+msgid "Allemagne"
+msgstr "Germany"
+
+#: templates/one-page.html:176
+msgid "Argentine"
+msgstr "Argentina"
+
+#: templates/one-page.html:177
+msgid "Autriche"
+msgstr "Austria"
+
+#: templates/one-page.html:178
+msgid "Belgique"
+msgstr "Belgium"
+
+#: templates/one-page.html:179
+msgid "Bolivie"
+msgstr "Bolivia"
+
+#: templates/one-page.html:180
+msgid "Brésil"
+msgstr "Brazil"
+
+#: templates/one-page.html:181
+msgid "Chili"
+msgstr "Chile"
+
+#: templates/one-page.html:182
+msgid "Colombie"
+msgstr "Colombia"
+
+#: templates/one-page.html:183
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: templates/one-page.html:184
+msgid "Cuba"
+msgstr "Cuba"
+
+#: templates/one-page.html:185
+msgid "République tchèque"
+msgstr "Czech Republic"
+
+#: templates/one-page.html:186
+msgid "Danemark"
+msgstr "Denmark"
+
+#: templates/one-page.html:187
+msgid "République dominicaine"
+msgstr "Dominican Republic"
+
+#: templates/one-page.html:188
+msgid "Équateur"
+msgstr "Ecuador"
+
+#: templates/one-page.html:189
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: templates/one-page.html:190
+msgid "Espagne"
+msgstr "Spain"
+
+#: templates/one-page.html:191
+msgid "Finlande"
+msgstr "Finland"
+
+#: templates/one-page.html:192
+msgid "France"
+msgstr "France"
+
+#: templates/one-page.html:193
+msgid "Grèce"
+msgstr "Greece"
+
+#: templates/one-page.html:194
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: templates/one-page.html:195
+msgid "Honduras"
+msgstr "Honduras"
+
+#: templates/one-page.html:196
+msgid "Hongrie"
+msgstr "Hungary"
+
+#: templates/one-page.html:197
+msgid "Irlande"
+msgstr "Ireland"
+
+#: templates/one-page.html:198
+msgid "Italie"
+msgstr "Italy"
+
+#: templates/one-page.html:199
+msgid "Lettonie"
+msgstr "Latvia"
+
+#: templates/one-page.html:200
+msgid "Lituanie"
+msgstr "Lithuania"
+
+#: templates/one-page.html:201
+msgid "Mexique"
+msgstr "Mexico"
+
+#: templates/one-page.html:202
+msgid "Pays-Bas"
+msgstr "Netherlands"
+
+#: templates/one-page.html:203
+msgid "Norvège"
+msgstr "Norway"
+
+#: templates/one-page.html:204
+msgid "Panama"
+msgstr "Panama"
+
+#: templates/one-page.html:205
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: templates/one-page.html:206
+msgid "Pérou"
+msgstr "Peru"
+
+#: templates/one-page.html:207
+msgid "Pologne"
+msgstr "Poland"
+
+#: templates/one-page.html:208
+msgid "Portugal"
+msgstr "Portugal"
+
+#: templates/one-page.html:209
+msgid "Royaume-Uni"
+msgstr "United Kingdom"
+
+#: templates/one-page.html:210
+msgid "Slovaquie"
+msgstr "Slovakia"
+
+#: templates/one-page.html:211
+msgid "Slovénie"
+msgstr "Slovenia"
+
+#: templates/one-page.html:212
+msgid "Suède"
+msgstr "Sweden"
+
+#: templates/one-page.html:213
+msgid "Suisse"
+msgstr "Switzerland"
+
+#: templates/one-page.html:214
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: templates/one-page.html:215
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: templates/one-page.html:222
+msgid "Ville/Région"
+msgstr "City/Region"
+
+#: templates/one-page.html:232
+msgid "Adresse du domicile"
+msgstr "Home Address"
+
+msgid "Revenu mensuel (exemple : 2000 )"
+msgstr "Monthly income (e.g. 2000)"
+
+msgid "Montant du financement (exemple : 15000 )"
+msgstr "Funding amount (e.g. 15000)"
+
+
+#: templates/one-page.html:273
+msgid "Description de votre projet"
+msgstr "Project Description"
+
+#: templates/one-page.html:278
+msgid "Envoyer votre demande"
+msgstr "Submit Your Request"
+
+#: templates/services.html:120
+msgid "Un financement pour tout le monde"
+msgstr "Funding for Everyone"
+
+#: templates/services.html:121
+msgid "Découvrez le monde du financement sans remboursement"
+msgstr "Discover the World of No Repayment Financing"
+
+#: templates/services.html:132 templates/services.html:142
+msgid "Soumission de la demande"
+msgstr "Application Submission"
+
+#: templates/services.html:133 templates/services.html:147
+msgid "Analyse du dossier"
+msgstr "Application Review"
+
+#: templates/services.html:134 templates/services.html:152
+msgid "Approbation et confirmation"
+msgstr "Approval and Confirmation"
+
+#: templates/services.html:135
+msgid "versement des fonds"
+msgstr "Disbursement of Funds"
+
+#: templates/services.html:143
+msgid ""
+"Commencez par remplir notre formulaire en ligne, en fournissant des "
+"informations précises sur vous-même, votre projet, et le montant nécessaire."
+msgstr ""
+"Start by filling out our online form, providing accurate information about "
+"yourself, your project, and the amount needed."
+
+#: templates/services.html:143
+msgid "Ce processus est simple et accessible à tous."
+msgstr "This process is simple and accessible to everyone."
+
+#: templates/services.html:148
+msgid ""
+"Une fois votre demande soumise, nos experts analysent votre dossier avec "
+"soin, en tenant compte de vos besoins et des objectifs de votre projet."
+msgstr ""
+"Once your application is submitted, our experts review your file carefully, "
+"considering your needs and the objectives of your project."
+
+#: templates/services.html:148
+msgid "Vous serez informé rapidement de l’avancement de votre demande."
+msgstr "You will be promptly informed about the progress of your request."
+
+#: templates/services.html:153
+msgid ""
+"Si votre demande est approuvée, nous vous envoyons une confirmation "
+"officielle accompagnée des détails sur les conditions et le calendrier de "
+"financement, pour une transparence totale."
+msgstr ""
+"If your request is approved, we will send you an official confirmation along "
+"with details on the terms and schedule of financing for complete "
+"transparency."
+
+#: templates/services.html:157
+msgid "Versement des fonds"
+msgstr "Disbursement of Funds"
+
+#: templates/services.html:158
+msgid ""
+"Après validation finale, les fonds sont directement transférés sur votre "
+"compte."
+msgstr ""
+"After final validation, the funds are directly transferred to your account."
+
+#: templates/services.html:158
+msgid ""
+"Vous pouvez ainsi démarrer ou renforcer votre projet sans aucun retard, "
+"grâce à notre processus rapide et fiable."
+msgstr ""
+"This allows you to start or strengthen your project without any delays, "
+"thanks to our fast and reliable process."
+
+#: venv/lib/python3.12/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: venv/lib/python3.12/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:155
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:768
+msgid "Enter a valid URL."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:216
+msgid "Enter a valid integer."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:227
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: venv/lib/python3.12/site-packages/django/core/validators.py:310
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:318
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:330
+#: venv/lib/python3.12/site-packages/django/core/validators.py:339
+#: venv/lib/python3.12/site-packages/django/core/validators.py:353
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2215
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:332
+msgid "IPv4"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:341
+#: venv/lib/python3.12/site-packages/django/utils/ipv6.py:30
+msgid "IPv6"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:355
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:396
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:402
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:437
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:446
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:455
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:462
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:494
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:512
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:535
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:359
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:398
+msgid "Enter a number."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:537
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:542
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:547
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:618
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/core/validators.py:680
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/base.py:1571
+#: venv/lib/python3.12/site-packages/django/forms/models.py:908
+msgid "and"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/base.py:1573
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1156
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1157
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1159
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1209
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1211
+msgid "String (unlimited)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1320
+msgid "Comma-separated integers"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1421
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1425
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1560
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1429
+msgid "Date (without time)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1556
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1564
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1569
+msgid "Date (with time)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1696
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1698
+msgid "Decimal number"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1859
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1863
+msgid "Duration"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1915
+msgid "Email address"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1940
+msgid "File path"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2018
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2020
+msgid "Floating point number"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2060
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2062
+msgid "Integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2158
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2175
+msgid "Small integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2183
+msgid "IPv4 address"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2214
+msgid "IP address"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2305
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2306
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2308
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2359
+msgid "Positive big integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2374
+msgid "Positive integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2389
+msgid "Positive small integer"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2405
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2441
+msgid "Text"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2521
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2525
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2529
+msgid "Time"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2637
+msgid "URL"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2661
+msgid "Raw binary data"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2726
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2728
+msgid "Universally unique identifier"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/related.py:932
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/related.py:934
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/related.py:1228
+msgid "One-to-one relationship"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/related.py:1285
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/related.py:1287
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/db/models/fields/related.py:1335
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: venv/lib/python3.12/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:308
+msgid "Enter a whole number."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:479
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:1260
+msgid "Enter a valid date."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:502
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:1261
+msgid "Enter a valid time."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:529
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:563
+msgid "Enter a valid duration."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:564
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:633
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:634
+msgid "No file was submitted."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:635
+msgid "The submitted file is empty."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:637
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:642
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:710
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:882
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:968
+#: venv/lib/python3.12/site-packages/django/forms/models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:970
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:1089
+#: venv/lib/python3.12/site-packages/django/forms/models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:1090
+msgid "Enter a complete value."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:1329
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/fields.py:1359
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: venv/lib/python3.12/site-packages/django/forms/forms.py:94
+msgid ":"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/forms.py:230
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/forms/formsets.py:484
+#: venv/lib/python3.12/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:1450
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/utils.py:227
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/widgets.py:461
+msgid "Clear"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/widgets.py:462
+msgid "Currently"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/widgets.py:463
+msgid "Change"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/widgets.py:800
+msgid "Unknown"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/widgets.py:801
+msgid "Yes"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/forms/widgets.py:802
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:903
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/template/defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/text.py:75
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/text.py:286
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: venv/lib/python3.12/site-packages/django/utils/text.py:305
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the “Referrer-Policy: no-referrer” header, please remove them. The "
+"CSRF protection requires the “Referer” header to do strict referer checking. "
+"If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:64
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:115
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:349
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/static.py:68
+#: venv/lib/python3.12/site-packages/django/views/templates/directory_index.html:8
+#: venv/lib/python3.12/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:7
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" "
+"rel=\"noopener\">DEBUG=True</a> is in your settings file and you have not "
+"configured any URLs."
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: venv/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid ""
+#~ "Pro-Fund is an innovative platform offering no-repayment financing "
+#~ "solutions, enabling individuals to pursue both personal and professional "
+#~ "projects. We are committed to supporting our users by providing fast and "
+#~ "accessible funding, without any repayment conditions."
+#~ msgstr ""
+#~ "Pro-Fund is an innovative platform offering no-repayment financing "
+#~ "solutions, allowing anyone to realize their personal and professional "
+#~ "projects. We are committed to supporting our users by providing fast and "
+#~ "accessible funding, without imposed repayment conditions."
+
+#~ msgid ""
+#~ "The site and all its content, including texts, images, logos, videos, "
+#~ "graphics, icons, as well as the source code, are protected by French "
+#~ "intellectual property laws. Any reproduction, distribution, modification, "
+#~ "or exploitation of the content without prior consent from the publisher "
+#~ "is prohibited. Unauthorized use may result in legal action."
+#~ msgstr ""
+#~ "The site and all its content, including texts, images, logos, videos, "
+#~ "graphics, icons, and the source code, are protected by French "
+#~ "intellectual property laws. Any reproduction, distribution, modification, "
+#~ "or exploitation of the content without prior consent from the publisher "
+#~ "is prohibited. Unauthorized use may result in legal action."
+
+#~ msgid ""
+#~ "is provided for personal, informational, and commercial use. The user "
+#~ "agrees not to use the site in a way that could damage or disrupt its "
+#~ "proper functioning. The publisher reserves the right to suspend access to "
+#~ "the site without notice in the event of abusive behavior."
+#~ msgstr ""
+#~ "The website is provided for personal, informational, and commercial use. "
+#~ "The user agrees not to use the site in a manner that could cause damage "
+#~ "or disrupt its operation. The publisher reserves the right to suspend "
+#~ "access to the site without notice in the case of abusive behavior."
+
+#~ msgid ""
+#~ "The site publisher takes all measures to provide reliable and up-to-date "
+#~ "information. However, the publisher cannot guarantee the accuracy, "
+#~ "precision, or completeness of the information available on the site, nor "
+#~ "its timely update. Consequently, the user acknowledges using this "
+#~ "information at their own risk. The publisher cannot be held liable for "
+#~ "any direct or indirect damages resulting from the use of the information "
+#~ "or services on the site."
+#~ msgstr ""
+#~ "The site publisher strives to offer reliable and up-to-date information. "
+#~ "However, the publisher cannot guarantee the accuracy, precision, "
+#~ "completeness, or timeliness of the information available on the site. "
+#~ "Consequently, the user acknowledges using this information at their own "
+#~ "risk. The publisher shall not be held liable for any direct or indirect "
+#~ "damages resulting from the use of the information or services provided on "
+#~ "the site."
+
+#~ msgid ""
+#~ "Personal data collected through the site are processed in accordance with "
+#~ "the French Data Protection Act of January 6, 1978, and the European "
+#~ "Union's General Data Protection Regulation (GDPR). The data collected are "
+#~ "used solely for the following purposes: managing requests, improving user "
+#~ "experience, and sending commercial communications, where applicable. This "
+#~ "data will never be shared with third parties without your prior consent, "
+#~ "unless required by law."
+#~ msgstr ""
+#~ "Personal data collected via the site are processed in accordance with the "
+#~ "French Data Protection Act of January 6, 1978, and the General Data "
+#~ "Protection Regulation (GDPR) of the European Union. The data collected "
+#~ "will be used only for the following purposes: managing requests, "
+#~ "improving user experience, and sending commercial communications, if "
+#~ "applicable. This data will never be shared with third parties without "
+#~ "your prior consent, except as required by law."
+
+#~ msgid ""
+#~ "The user has the right to access, rectify, delete, and object to the "
+#~ "processing of their personal data by contacting the publisher at the "
+#~ "email address provided above."
+#~ msgstr ""
+#~ "The user has the right to access, correct, delete, and oppose the "
+#~ "processing of their personal data by contacting the publisher at the "
+#~ "email address provided above."
+
+#~ msgid ""
+#~ "The site uses cookies to enhance the browsing experience and analyze site "
+#~ "performance. Cookies are small text files stored on your device during "
+#~ "your visit to our site. You can manage or disable cookies through your "
+#~ "browser settings. However, disabling cookies may limit certain site "
+#~ "features."
+#~ msgstr ""
+#~ "The site uses cookies to provide a better browsing experience and analyze "
+#~ "site performance. Cookies are small text files stored on your device "
+#~ "during your visit to our site. You can manage or disable cookies through "
+#~ "your browser settings. However, disabling cookies may prevent some "
+#~ "features of the site from working properly."
+
+#~ msgid ""
+#~ "The site may contain links to external websites. The publisher cannot be "
+#~ "held responsible for the content of these third-party sites and does not "
+#~ "endorse them. The user accesses these sites at their own risk."
+#~ msgstr ""
+#~ "The site may contain links to external sites. The publisher is not "
+#~ "responsible for the content of these third-party sites and does not "
+#~ "endorse them. The user accesses these sites at their own risk."
+
+#~ msgid ""
+#~ "These legal notices may be modified at any time, without notice, to "
+#~ "comply with changes in legislation or services offered. It is the user's "
+#~ "responsibility to consult this page regularly."
+#~ msgstr ""
+#~ "These legal notices may be updated at any time without notice to comply "
+#~ "with changes in legislation or the services provided. It is the user's "
+#~ "responsibility to regularly check this page."
+
+#~ msgid ""
+#~ "These legal notices are governed by French law. In case of dispute, the "
+#~ "competent courts in Paris will have sole jurisdiction, unless mandatory "
+#~ "legal provisions dictate otherwise."
+#~ msgstr ""
+#~ "These legal notices are governed by French law. In the event of a "
+#~ "dispute, the competent courts in Paris will have exclusive jurisdiction, "
+#~ "unless mandatory legal provisions dictate otherwise."
+
+#~ msgid ""
+#~ "Thank you for taking the time to reach out to us! Your message has been "
+#~ "received, and our team is currently reviewing it. We are committed to "
+#~ "responding as soon as possible and providing you with all the necessary "
+#~ "assistance."
+#~ msgstr ""
+#~ "Thank you for reaching out to us! Your message has been received, and our "
+#~ "team is reviewing it. We are committed to responding as quickly as "
+#~ "possible and providing any assistance needed."

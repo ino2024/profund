@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+{% load i18n %}
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% trans "Email de Confirmation - Demande de Financement" %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .header {
+            background-color: #a4c639; /* Couleur verte */
+            color: white;
+            text-align: center;
+            padding: 30px;
+            position: relative;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header img {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            height: 50px; /* Ajustez la taille de votre logo */
+        }
+
+        .content {
+            padding: 40px 30px;
+            background-color: white;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .content h2 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .content p {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .content a {
+            color: #a4c639;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #a4c639; /* Couleur verte */
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer p {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+
+        .footer p a {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Pro-Fund</h1>
+    </div>
+
+    <div class="content">
+
+        <h2>{% trans "Merci pour votre demande de financement" %} {{ nom }}</h2>
+        <p>{% trans "Nous avons bien reçu votre demande et nous tenons à vous remercier pour la confiance que vous nous accordez." %}</p>
+        <p>{% trans "Votre demande est actuellement en cours de traitement, et l’un de nos conseillers prendra contact avec vous dans les 48 heures afin de discuter des prochaines étapes et des solutions les plus adaptées à vos besoins." %}</p>
+        <p>{% trans "Nous sommes ravis de pouvoir vous accompagner dans votre projet, et notre équipe est à votre disposition pour répondre à toutes vos questions pendant cette période d'attente." %}</p>
+        <p>{% trans "En attendant, n’hésitez pas à explorer notre site web pour découvrir l'ensemble de nos services. Vous y trouverez des informations utiles qui pourraient vous intéresser :" %}</p>
+        <p><a href="https://www.votreentreprise.com" target="_blank">{% trans "Visitez notre site web" %}</a></p>
+        <p>{% trans "Nous vous remercions encore pour votre demande et restons à votre disposition pour toute autre information." %}</p>
+        <p>{% trans "Cordialement," %}<br>
+        {% trans "L'équipe de" %} Pro-Fund</p>
+    </div>
+
+    <div class="footer">
+        <p>{% trans "Restez connecté avec nous :" %}</p>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://linkedin.com" target="_blank">whatsapp</a>
+        <p>&copy; 2024 Pro-Fund. {% trans "Tous droits réservés." %}</p>
+    </div>
+</body>
+</html>
